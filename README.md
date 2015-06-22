@@ -9,15 +9,15 @@ https://registry.hub.docker.com/u/mcandre/docker-elasticsearch/
 ```
 $ make
 ...
-docker exec 18290292141a9e1cf1a98d6e93fb14350ee2e45a7ab6b7eba2bc2786497ea3b6 curl -s http://localhost:9200/
+docker exec b9f8c126ea9e1b5ea083c01e43de9cb10fbbeb34a75f10792f6774622779a718 curl -s http://localhost:9200/
 {
   "status" : 200,
-  "name" : "Gosamyr",
+  "name" : "Dark Beast",
   "cluster_name" : "elasticsearch",
   "version" : {
-    "number" : "1.5.2",
-    "build_hash" : "62ff9868b4c8a0c45860bebb259e21980778ab1c",
-    "build_timestamp" : "2015-04-27T09:21:06Z",
+    "number" : "1.4.5",
+    "build_hash" : "2aaf797f2a571dcb779a3b61180afe8390ab61f9",
+    "build_timestamp" : "2015-04-27T08:06:06Z",
     "build_snapshot" : false,
     "lucene_version" : "4.10.4"
   },
