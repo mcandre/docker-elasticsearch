@@ -8,7 +8,7 @@ build: Dockerfile
 run: clean-containers build
 	$(eval CONTAINER=$(shell docker run -d -p 9200:9200 -p 9300:9300 $(IMAGE)))
 	sleep 10
-	curl http://$$(boot2docker ip):9200/
+	docker exec $(CONTAINER) curl -s http://localhost:9200/
 
 clean-containers:
 	-docker ps -a | grep -v IMAGE | awk '{ print $$1 }' | xargs docker rm -f

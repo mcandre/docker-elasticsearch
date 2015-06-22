@@ -9,11 +9,10 @@ https://registry.hub.docker.com/u/mcandre/docker-elasticsearch/
 ```
 $ make
 ...
-sleep 10
-curl http://$(boot2docker ip):9200/
+docker exec 93ede334c304211ca44f28650555097154cbd687ff099305adc476a9400e9fc6 curl -s http://localhost:9200/
 {
   "status" : 200,
-  "name" : "Alexander Summers",
+  "name" : "The Russian",
   "cluster_name" : "elasticsearch",
   "version" : {
     "number" : "1.6.0",
