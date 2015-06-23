@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-elasticsearch:1.2
+IMAGE=mcandre/docker-elasticsearch:1.1
 
 all: run
 
