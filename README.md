@@ -9,16 +9,16 @@ https://registry.hub.docker.com/u/mcandre/docker-elasticsearch/
 ```
 $ make
 ...
-docker exec 9d9aaa32a49749a563199c0caf5e100a6f1b05407cb6e9ea15a5c632f588cb91 curl -s http://localhost:9200/
+docker exec d3480e541208e149de33ba9266e587c0e151f098d097190a5c4ce552b40b76bd curl -s http://localhost:9200/
 {
   "status" : 200,
-  "name" : "Firebird",
+  "name" : "Kosmos",
   "version" : {
-    "number" : "1.1.1",
-    "build_hash" : "f1585f096d3f3985e73456debdc1a0745f512bbc",
-    "build_timestamp" : "2014-04-16T14:27:12Z",
+    "number" : "1.0.3",
+    "build_hash" : "61bfb72d845a59a58cd9910e47515665f6478a5c",
+    "build_timestamp" : "2014-04-16T14:43:11Z",
     "build_snapshot" : false,
-    "lucene_version" : "4.7"
+    "lucene_version" : "4.6"
   },
   "tagline" : "You Know, for Search"
 }
