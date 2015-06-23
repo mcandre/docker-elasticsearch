@@ -9,17 +9,16 @@ https://registry.hub.docker.com/u/mcandre/docker-elasticsearch/
 ```
 $ make
 ...
-docker exec b9f8c126ea9e1b5ea083c01e43de9cb10fbbeb34a75f10792f6774622779a718 curl -s http://localhost:9200/
+docker exec b4d48c889a7da30985e32f4658089878817ab02bdacb73973bbb37866ed1502b curl -s http://localhost:9200/
 {
   "status" : 200,
-  "name" : "Dark Beast",
-  "cluster_name" : "elasticsearch",
+  "name" : "Occulus",
   "version" : {
-    "number" : "1.4.5",
-    "build_hash" : "2aaf797f2a571dcb779a3b61180afe8390ab61f9",
-    "build_timestamp" : "2015-04-27T08:06:06Z",
+    "number" : "1.3.9",
+    "build_hash" : "0915c7306e6264ba21a6cb7609b93545ccc32ef1",
+    "build_timestamp" : "2015-02-19T12:34:48Z",
     "build_snapshot" : false,
-    "lucene_version" : "4.10.4"
+    "lucene_version" : "4.9"
   },
   "tagline" : "You Know, for Search"
 }
