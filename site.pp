@@ -3,7 +3,7 @@ package { [ 'wget', 'curl' ]:
 }
 
 class { 'elasticsearch':
-  package_url => 'https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.0.3.noarch.rpm',
+  package_url => 'https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-0.90.13.noarch.rpm',
   status => 'disabled',
   java_install => true,
   require => Package['wget']

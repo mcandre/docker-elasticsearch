@@ -9,14 +9,15 @@ https://registry.hub.docker.com/u/mcandre/docker-elasticsearch/
 ```
 $ make
 ...
-docker exec d3480e541208e149de33ba9266e587c0e151f098d097190a5c4ce552b40b76bd curl -s http://localhost:9200/
+docker exec a75323c535bbd5550699af07ebad597246f60b574727c14913f714d2ff751a30 curl -s http://localhost:9200/
 {
+  "ok" : true,
   "status" : 200,
-  "name" : "Kosmos",
+  "name" : "Destroyer of Demons",
   "version" : {
-    "number" : "1.0.3",
-    "build_hash" : "61bfb72d845a59a58cd9910e47515665f6478a5c",
-    "build_timestamp" : "2014-04-16T14:43:11Z",
+    "number" : "0.90.13",
+    "build_hash" : "249c9c5e06765c9e929e92b1d235e1ba4dc679fa",
+    "build_timestamp" : "2014-03-25T15:27:12Z",
     "build_snapshot" : false,
     "lucene_version" : "4.6"
   },

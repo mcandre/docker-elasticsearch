@@ -5,4 +5,4 @@ RUN puppet module install puppetlabs-java && \
     puppet module install elasticsearch-elasticsearch && \
     puppet apply /etc/puppet/manifests/site.pp --verbose --detailed-exitcodes || [ $? -eq 2 ]
 EXPOSE 9200 9300
-ENTRYPOINT /usr/share/elasticsearch/bin/elasticsearch
+ENTRYPOINT /usr/share/elasticsearch/bin/elasticsearch -f
