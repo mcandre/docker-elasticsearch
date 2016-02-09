@@ -32,6 +32,7 @@ docker exec 93ede334c304211ca44f28650555097154cbd687ff099305adc476a9400e9fc6 cur
 ## Optional
 
 * [make](http://www.gnu.org/software/make/)
+* [Node.js](https://nodejs.org/en/) (for dockerlint)
 
 ## Debian/Ubuntu
 
